@@ -1,0 +1,25 @@
+{
+  "name": "trade-stat",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "express-handlebars": "^3.0.0",
+    "moment": "^2.19.2",
+    "morgan": "~1.9.0",
+    "node-notifier": "^5.1.2",
+    "nodemon": "^1.12.1",
+    "pg": "^7.4.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "serve-favicon": "~2.4.5",
+    "socket.io": "^2.0.4",
+    "yargs": "^10.0.3"
+  }
+}

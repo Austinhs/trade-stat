@@ -1,0 +1,7 @@
+{{#if error.notfound}}
+	<h1> WoW WoW WoW - This page dosent exist bud.</h1>
+{{else}}
+	<h1> {{ message }} </h1>
+	<h2> {{ error.status }} </h2>
+	<pre> {{ error.stack }} </pre>
+{{/if}}
